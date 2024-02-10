@@ -16,3 +16,9 @@ body {
   justify-content: center;
   align-items: center;
 }
+
+@media (width <= 480px) {
+  body {
+    min-width: 440px;
+  }
+}
