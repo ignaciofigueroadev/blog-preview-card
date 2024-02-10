@@ -9,24 +9,37 @@
       sizes="32x32"
       href="./assets/images/favicon-32x32.png"
     />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Figtree:wght@600;800&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="/styles/global.css" />
     <link rel="stylesheet" href="/styles/reset.css" />
+    <link rel="stylesheet" href="/styles/card.css" />
     <title>Frontend Mentor | Blog preview card</title>
   </head>
   <body>
     <main>
-      <article>
-        <img src="/assets/images/illustration-article.svg" alt="Blog image" />
-        <span>Learning</span>
-        <p>Published 21 Dec 2023 . Greg Hooper</p>
-        <h1>HTML & CSS foundations</h1>
-        <p>
-          These languages are the backbone of every website, defining structure,
-          content, and presentation
-        </p>
-        <div>
-          <img src="assets/images/image-avatar.webp" alt="User avatar" />
-          <p>Greg Hooper</p>
+      <article class="card">
+        <div class="card__content">
+          <img
+            src="/assets/images/illustration-article.svg"
+            alt="Blog image"
+            class="card__image"
+          />
+          <span class="card__chip">Learning</span>
+          <p>Published 21 Dec 2023</p>
+          <h1 class="card__title">HTML & CSS foundations</h1>
+          <p class="card__description">
+            These languages are the backbone of every website, defining
+            structure, content, and presentation.
+          </p>
+          <div class="card__avatar">
+            <img src="assets/images/image-avatar.webp" alt="User avatar" />
+            <p>Greg Hooper</p>
+          </div>
         </div>
       </article>
     </main>
@@ -35,7 +48,7 @@
       Challenge by
       <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
         >Frontend Mentor</a
-      >. Coded by <a href="#">Your Name Here</a>.
+        >. Coded by <a href="#">Your Name Here</a>.
     </div> -->
   </body>
 </html>
