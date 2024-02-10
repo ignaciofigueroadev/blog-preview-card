@@ -1,6 +1,6 @@
 * {
   min-width: 0;
-  font-family: var(--figree-font);
+  font-family: inherit;
 }
 
 body {

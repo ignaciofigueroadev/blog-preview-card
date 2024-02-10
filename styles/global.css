@@ -6,3 +6,7 @@
   --gray: hsl(0, 0%, 50%);
   --figree-font: "Figtree", sans-serif;
 }
+
+* {
+  font-family: var(--figree-font);
+}
