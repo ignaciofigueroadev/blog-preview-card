@@ -39,7 +39,7 @@
 
 .card__title {
   font-weight: 800;
-  font-size: 2rem;
+  font-size: 1.75rem;
   transition: all 0.25s ease;
   -webkit-transition: all 0.25s ease;
   -moz-transition: all 0.25s ease;
@@ -54,7 +54,6 @@
 
 .card__description {
   color: var(--gray);
-  font-size: 1.15rem;
 }
 
 .card__avatar {
